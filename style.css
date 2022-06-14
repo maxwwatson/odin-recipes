@@ -1,3 +1,7 @@
+body {
+    background-color: #f7f7f7;
+}
+
 .container {
     text-align:center;
     margin: auto;
@@ -44,5 +48,11 @@ ol li {
 .home-button a {
     color: black;
     padding: 10px;
-    
+
+}
+
+.odin-img {
+    max-width: 100px;
+    display:block;
+    margin: auto;
 }
