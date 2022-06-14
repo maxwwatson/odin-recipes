@@ -1,0 +1,48 @@
+.container {
+    text-align:center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.recipe-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipe-link {
+    color:black;
+}
+
+.recipe-link:hover {
+    color:rgba(0,0,0,0.3);
+}
+
+.recipe-image{
+    max-width: 300px;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+ol li {
+    padding:10px;
+}
+
+.home-button{
+    font-size: 16px;
+    margin: 50px;
+    padding: 10px;
+}
+
+.home-button a {
+    color: black;
+    padding: 10px;
+    
+}
