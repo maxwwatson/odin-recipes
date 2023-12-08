@@ -1,0 +1,28 @@
+body {
+    font-family:monospace;
+}
+.page container {
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    margin: auto, 20px;
+    justify-content: space-between;
+}
+
+.main-content {
+    
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-links p {
+    padding-left: 10px;
+}
