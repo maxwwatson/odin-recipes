@@ -1,19 +1,43 @@
 body {
     font-family:monospace;
-}
-.page container {
     margin: auto;
+    color: black; 
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
 }
 
 .header-container {
     display: flex;
-    margin: auto, 20px;
+    margin: 20px;
     justify-content: space-between;
 }
 
 .main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto auto auto;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.list-container {
+    margin: auto;
+    padding-right: 30px;
+}
+li {
     
 }
+.main content p {
+    text-align: start;
+}
+
 
 .nav-links {
     display: flex;
@@ -26,3 +50,57 @@ body {
 .nav-links p {
     padding-left: 10px;
 }
+
+#footer {
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover, #footer a:hover {
+    color: rgb(164, 0, 0);
+}
+
+.nav-links a:link {
+    color: black;
+}
+
+#footer a {
+    color: white;
+}
+
+.ingredients {
+
+}
+
+
+.directions li, .ingredients li {
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+figure {
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+header p {
+    font-size: 13px;
+}
+
